@@ -79,15 +79,26 @@ def nps_check(type, number):
             return 'BAD'
         
         
-def get_voc(ws, month_year_format):
+def get_voc(ws, month_year_format, month):
     """
     Grabs relevant data from VOC MoM sheet.
     """
     col = None
-    for item in ws[1]:
-        if month_year_format in str(item.value):
-            col = item.column
-            st.write(f'(Column: {col})')
+    
+    try:
+        for item in ws[1]:
+            if month_year_format in str(item.value):
+                col = item.column
+                st.write(f'(Column: {col})')
+    except ValueError:
+        print('Month Year not found in VOC')
+        logging.info('Month Year not found in VOC. Trying by month only...')
+    else:
+        for item in ws[1]:
+            if month in str(item.value):
+                col = item.column
+                st.write(f'(Column: {col})')
+            
     values = [co for co in ws.iter_cols(min_col=col, max_col=col, values_only=True)]
     new_values = [item for item in values[0][1:] if item != None and isinstance(item, int)]
 

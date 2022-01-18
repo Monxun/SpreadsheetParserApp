@@ -125,8 +125,10 @@ if navigation != 'Log File':
         if worksheet_selector == 'VOC Rolling MoM':
             st.subheader('VOC')
 
+            month = month_year[0].capitalize()
+
             # get column data and return dictionary
-            col_data = get_voc(ws, month_year_format)
+            col_data = get_voc(ws, month_year_format, month)
 
             # log data
             log_voc(col_data)
