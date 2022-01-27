@@ -25,7 +25,7 @@ from services import (
 #####################################################
 #NAVIGATION
 
-st.image('./spreadsheet-icon.png', width=100)
+st.image('./app/spreadsheet-icon.png', width=100)
 st.title('Spreadsheet Mini-Project')
 pages = ['Select by File', 'Current Month', 'Log File']
 navigation = st.selectbox('Select a page', pages)
