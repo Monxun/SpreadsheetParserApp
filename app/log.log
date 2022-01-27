@@ -1,0 +1,52 @@
+14:54:12 - DEBUG STREAM b'IHDR' 16 13
+14:54:12 - DEBUG STREAM b'IDAT' 41 29981
+14:54:13 - DEBUG STREAM b'IHDR' 16 13
+14:54:13 - DEBUG STREAM b'IDAT' 41 29981
+14:54:13 - INFO data/expedia_report_monthly_january_2018.xlsx exists
+14:54:13 - INFO (expedia_report_monthly_january_2018.xlsx is selected.)
+14:54:13 - INFO get_summary succesful
+14:54:13 - INFO Abandon after 30s: 2.32%
+14:54:13 - INFO FCR : 86.50%
+14:54:13 - INFO DSAT : 14.20%
+14:54:13 - INFO CSAT : 78.30%
+14:54:13 - INFO Displayed summary in app
+14:54:14 - DEBUG STREAM b'IHDR' 16 13
+14:54:14 - DEBUG STREAM b'IDAT' 41 29981
+14:54:14 - INFO data/expedia_report_monthly_january_2018.xlsx exists
+14:54:14 - INFO (expedia_report_monthly_january_2018.xlsx is selected.)
+14:54:14 - INFO get_summary succesful
+14:54:14 - INFO Abandon after 30s: 2.32%
+14:54:14 - INFO FCR : 86.50%
+14:54:14 - INFO DSAT : 14.20%
+14:54:14 - INFO CSAT : 78.30%
+14:54:14 - INFO Displayed summary in app
+14:54:21 - DEBUG STREAM b'IHDR' 16 13
+14:54:21 - DEBUG STREAM b'IDAT' 41 29981
+14:54:21 - INFO data/expedia_report_monthly_january_2018.xlsx exists
+14:54:21 - INFO (expedia_report_monthly_january_2018.xlsx is selected.)
+14:54:21 - INFO get_summary succesful
+14:54:21 - INFO Abandon after 30s: 2.32%
+14:54:21 - INFO FCR : 86.50%
+14:54:21 - INFO DSAT : 14.20%
+14:54:21 - INFO CSAT : 78.30%
+14:54:21 - INFO Displayed summary in app
+14:54:31 - DEBUG STREAM b'IHDR' 16 13
+14:54:31 - DEBUG STREAM b'IDAT' 41 29981
+14:54:31 - INFO data/expedia_report_monthly_january_2018.xlsx exists
+14:54:31 - INFO (expedia_report_monthly_january_2018.xlsx is selected.)
+14:54:31 - INFO get_voc succesful
+14:54:31 - INFO Base Size: 425
+14:54:31 - INFO Promoters: 256 - GOOD
+14:54:31 - INFO Passives: 86 - BAD
+14:54:31 - INFO Detractors: 86 - GOOD
+14:54:31 - INFO Displayed voc in app
+14:54:54 - DEBUG STREAM b'IHDR' 16 13
+14:54:54 - DEBUG STREAM b'IDAT' 41 29981
+14:54:54 - INFO data/expedia_report_monthly_march_2018.xlsx exists
+14:54:54 - INFO (expedia_report_monthly_march_2018.xlsx is selected.)
+14:54:55 - INFO get_voc succesful
+14:54:55 - INFO Base Size: 508
+14:54:55 - INFO Promoters: 279 - GOOD
+14:54:55 - INFO Passives: 21 - BAD
+14:54:55 - INFO Detractors: 33 - GOOD
+14:54:55 - INFO Displayed voc in app
