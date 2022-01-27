@@ -11,4 +11,4 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY ./app /code/app
 
-CMD streamlit run app/app.py --server.port 8400
+CMD streamlit run app/app.py --server.port 8500
