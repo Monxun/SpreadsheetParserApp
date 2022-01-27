@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    volumes:
+      - ./app:/app
+    ports:
+      - "8500:8500"
+    command: streamlit run app/app.py --server.port 8500
+    # Infinite loop, to keep it alive, for debugging
+    # command: bash -c "while true; do echo 'sleeping...' && sleep 10; done"
